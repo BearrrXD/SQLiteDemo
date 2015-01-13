@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_insert"
+        android:orderInCategory="100"
+        android:title="新增"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="刪除"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_update"
+        android:orderInCategory="100"
+        android:title="修改"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_query"
+        android:orderInCategory="100"
+        android:title="查詢"
+        app:showAsAction="never" />
+</menu>
